@@ -1,0 +1,17 @@
+* hermanhel/org-edit-utils
+  I don't if this is the correct naming convention.
+
+  Inside this package are some ~hermnhel/***~ functions, which were either collected by me from forums and [maybe] modified, or written by me.
+** contents
+*** DONE hermanhel/org-insert-clipboard-clipboard-image
+this function would:
+1. create directory ~./resource/buffer-name~
+2. paste clipboard image into ~./resource/buffer-name/img-filename.png~ using ~pngpaste~
+3. insert a size spcification
+4. insert link to the png file
+5. toggle ~org-inline-image-display~
+*** TODO hermanhel/org-recursive-copy
+this function would:
+1. copy the specified org file to dest
+2. copy ~./resource/filename/~ with it
+3. copy other linked files with it (not org-roam node).
