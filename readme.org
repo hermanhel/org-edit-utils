@@ -10,6 +10,9 @@ this function would:
 3. insert a size spcification
 4. insert link to the png file
 5. toggle ~org-inline-image-display~
+*** DONE hermanhel/copy-line-at-point
+this function would:
+1. copy the line at point.
 *** TODO hermanhel/org-recursive-copy
 this function would:
 1. copy the specified org file to dest

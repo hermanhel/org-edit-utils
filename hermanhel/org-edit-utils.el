@@ -15,4 +15,15 @@
                (insert  (concat "[[" resource img-filename ".png" "]]"))
                (org-display-inline-images)
                ))
+
+(defun hermanhel/copy-line-at-point
+    ()
+  "copy the line at point"
+  (interactive)
+  (kill-ring-save (line-beginning-position) (line-end-position)))
+
+;;(global-set-key (kbd "C-c h l") 'hermanh/copy-line-at-point) my use.
+
+
+
 (provide 'hermanhel/org-edit-utils)
